@@ -3,13 +3,7 @@
 
 # Overview of SRAM and Ripple Carry Adder
 
-**Static Random-Access Memory (SRAM)** is widely used in caches and memory applications due to 
-
-its fast access time. The 6T SRAM cell is a standard memory cell design using six transistors. The 
-
-**4-bit Ripple Carry Adder (RCA)** is a fundamental arithmetic circuit used in microprocessors and 
-
-digital systems.
+**Static Random-Access Memory (SRAM)** is widely used in caches and memory applications due to its fast access time. The 6T SRAM cell is a standard memory cell design using six transistors. The **4-bit Ripple Carry Adder (RCA)** is a fundamental arithmetic circuit used in microprocessors and digital systems.
 
 ## Tools Used
 
@@ -21,9 +15,7 @@ digital systems.
 
 • **6T SRAM Cell:** CMOS-based layout ensuring minimal area and stable operation. 
 
-• **4-bit Ripple Carry Adder:** Designed using full adders cascaded to perform multi-bit 
-
-addition. 
+• **4-bit Ripple Carry Adder:** Designed using full adders cascaded to perform multi-bit addition. 
 
 • **Zero DRC Errors:** Ensured layout is clean and meets foundry design rules.
 

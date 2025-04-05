@@ -22,7 +22,7 @@
 
 # 6T SRAM Cell Layout  
 ## Circuit Diagram 
-• The 6T SRAM cell consists of: 
+#### The 6T SRAM cell consists of: 
 
 • Two cross-coupled inverters for storage. 
 

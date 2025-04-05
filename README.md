@@ -28,7 +28,7 @@
 
 • Two NMOS access transistors for read/write operations.
 
-read/write operations.
+                            
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/6T-SRAM-Cell.png)
 #  4-bit Ripple Carry Adder Layout
 ## Circuit Diagram

@@ -23,7 +23,9 @@
 # 6T SRAM Cell Layout  
 ## Circuit Diagram 
 • The 6T SRAM cell consists of: 
-• Two cross-coupled inverters for storage. //
+
+• Two cross-coupled inverters for storage. 
+
 • Two NMOS access transistors for read/write operations.
 
 read/write operations.
@@ -31,6 +33,7 @@ read/write operations.
 #  4-bit Ripple Carry Adder Layout
 ## Circuit Diagram
 • The RCA is built using four cascaded full adders. 
+
 • A full adder consists of two XOR gates, three NAND gates.
 
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/converted.jpg)

@@ -30,4 +30,8 @@
 read/write operations.
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/6T-SRAM-Cell.png)
 #  4-bit Ripple Carry Adder Layout
+## Circuit Diagram
+• The RCA is built using four cascaded full adders. 
+
+• A full adder consists of two XOR gates, two NAND gates.
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/converted.jpg)

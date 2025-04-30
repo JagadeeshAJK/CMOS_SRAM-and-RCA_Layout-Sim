@@ -77,5 +77,33 @@ M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) an
 • Each full adder adds one bit from each number plus a carry-in, producing a sum bit and a carry-out.<br>
 • The carry-out of each stage ripples to the next stage as carry-in.<br>
 • The final output is a 4-bit sum and one carry-out.
+
+### Inputs:
+A0, A1, A2, A3 → Bits of input A (LSB to MSB)<br>
+B0, B1, B2, B3 → Bits of input B<br>
+C0 → Initial carry input (usually 0)
+
+### Operation (per full adder):
+#### FA0:
+S0 = A0 + B0 + C0<br>
+**→ Outputs:** Sum S0, Carry C1
+
+#### FA1:
+S1 = A1 + B1 + C1<br>
+→ Outputs: Sum S1, Carry C2
+
+#### FA2:
+S2 = A2 + B2 + C2<br>
+→ Outputs: Sum S2, Carry C3
+
+#### FA3:
+S3 = A3 + B3 + C3<br>
+→ Outputs: Sum S3, Carry C
+
+### Final Outputs:
+**Sum =**  S3 S2 S1 S0<br>
+**Carry-out =** C
+
+
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/tool_adder.png)
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/Adder_sim.png)

@@ -33,6 +33,7 @@
 
 
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/tool_sram.png)
+![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/Sram_sim.png)
 #  4-bit Ripple Carry Adder Layout
 ## Circuit Diagram
 • The RCA is built using four cascaded full adders. 
@@ -41,3 +42,4 @@
 
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/converted.jpg)
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/tool_adder.png)
+![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/Adder_sim.png)

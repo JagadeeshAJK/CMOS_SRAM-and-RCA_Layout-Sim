@@ -1,0 +1,20 @@
+timestamp 1733920089
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "GND" 156 21056 -5 -20 ndiff 98 56 0 0 0 0 0 0 0 0 0 0 508 174 0 0 0 0
+node "BLB" 27 2820 52 -1 ndiff 49 28 0 0 0 0 0 0 0 0 0 0 90 46 0 0 0 0
+node "BL" 27 1410 -45 -1 ndiff 49 28 0 0 0 0 0 0 0 0 0 0 60 34 0 0 0 0
+node "VDD" 348 20586 -5 8 pdiff 0 0 98 56 0 0 0 0 0 0 0 0 498 170 0 0 0 0
+node "Q" 705 19129 -36 -1 ndiff 98 56 49 28 98 94 0 0 0 0 0 0 294 148 192 104 0 0
+node "QB" 705 22374 -7 -23 p 98 56 49 28 98 94 0 0 0 0 0 0 406 192 0 0 0 0
+node "WL" 577 37832 -42 11 pc 0 0 0 0 120 112 0 0 0 0 0 0 604 310 0 0 0 0
+cap "QB" "Q" 1292
+device mosfet nfet 20 -20 21 -19 2 7 "Gnd!" "Q" 4 0 "QB" 7 49,28 "GND" 7 49,28
+device mosfet nfet -7 -20 -6 -19 2 7 "Gnd!" "QB" 4 0 "Q" 7 49,28 "GND" 7 49,28
+device mosfet nfet 50 -1 51 0 2 7 "Gnd!" "WL" 4 0 "QB" 7 49,28 "BLB" 7 49,28
+device mosfet nfet -38 -1 -37 0 2 7 "Gnd!" "WL" 4 0 "BL" 7 49,28 "Q" 7 49,28
+device mosfet pfet 20 8 21 9 2 7 "Vdd!" "Q" 4 0 "QB" 7 49,28 "VDD" 7 49,28
+device mosfet pfet -7 8 -6 9 2 7 "Vdd!" "QB" 4 0 "Q" 7 49,28 "VDD" 7 49,28

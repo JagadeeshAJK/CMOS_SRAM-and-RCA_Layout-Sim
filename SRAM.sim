@@ -1,0 +1,20 @@
+| units: 100 tech: scmos format: MIT
+p Q QB VDD 2 7 20 8 s=49,28 d=49,28
+n WL BL Q 2 7 -37 0 s=49,28 d=49,28
+n WL QB BLB 2 7 50 0 s=49,28 d=49,28
+n Q QB GND 2 7 20 -19 s=49,28 d=49,28
+p QB Q VDD 2 7 -6 8 s=49,28 d=49,28
+n QB Q GND 2 7 -6 -19 s=49,28 d=49,28
+C GND0 21.1
+R GND 156
+C BLB0 2.8
+R BLB 27
+R BL 27
+C VDD0 20.6
+R VDD 348
+C Q0 19.1
+R Q 705
+C QB0 22.4
+R QB 705
+C WL0 37.8
+R WL 577

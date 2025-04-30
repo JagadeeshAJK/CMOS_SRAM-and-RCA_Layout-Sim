@@ -39,20 +39,16 @@ M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) an
 
 #### 1. Hold Operation :
 WL = 0 → access transistors (M5, M6) are OFF <br>
-The two inverters (M1–M4) are cross-coupled.They keep feeding each other and data is held indefinitely without refreshment.
+The two inverters (M1–M4) are cross-coupled.They keep feeding each other and data is held indefinitely without refreshment.<br>
 Result  : Stored bit remains unchanged.
 
 
 
 #### 2. Write Operation:
-Set BL and BLB to desired value:
-
-To write '1':    BL = 1, BLB = 0
-
-WL = 1 → access transistors ON
-
-Strong drivers on bit lines overwrite the inverters' state and Forces Q and QB to switch cross-coupled inverters latch new value
-
+Set BL and BLB to desired value:<br>
+To write '1':    BL = 1, BLB = 0<br>
+WL = 1 → access transistors ON <br>
+Strong drivers on bit lines overwrite the inverters' state and Forces Q and QB to switch cross-coupled inverters latch new value<br>
 Result : New data is written into the cell.
 
 
@@ -61,14 +57,10 @@ Result : New data is written into the cell.
 
 
 #### 3. Read Operation :
-keep BL and BLB as x and WL = 1 → access transistors turn ON
-
-Stored data appears on BL/BLB:
-
-If cell stores ‘1’:
-
-BL stays high and BLB stays Low.
-
+keep BL and BLB as x and WL = 1 → access transistors turn ON<br>
+Stored data appears on BL/BLB:<br>
+If cell stores ‘1’:<br>
+BL stays high and BLB stays Low.<br>
 Result : Data is read without disturbing the stored value.
 
 

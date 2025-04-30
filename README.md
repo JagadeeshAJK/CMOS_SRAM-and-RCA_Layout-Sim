@@ -64,6 +64,13 @@ M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) an
 
 
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/tool_sram.png)
+### Layout Design in Magic :
+
+1. Draw PMOS and NMOS transistors with appropriate W/L ratios. <br>
+2. Connect inverters using metal/poly layers. <br>
+3. Implement bitlines and wordline access. <br>
+4. Ensure power (VDD) and ground (GND) are properly connected. <br>
+5. check and correct the DRC violations 
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/irsim_sram.png)
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/Sram_sim.png)
 #  4-bit Ripple Carry Adder Layout

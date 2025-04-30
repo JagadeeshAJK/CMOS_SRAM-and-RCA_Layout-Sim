@@ -38,7 +38,7 @@ M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) an
 
 
 #### 1. Hold Operation :
-WL = 0 → access transistors (M5, M6) are OFF
+WL = 0 → access transistors (M5, M6) are OFF <br>
 The two inverters (M1–M4) are cross-coupled.They keep feeding each other and data is held indefinitely without refreshment.
 Result  : Stored bit remains unchanged.
 

@@ -47,8 +47,8 @@ M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) an
 #### 2. Write Operation:
 • Set BL and BLB to desired value:<br>
 • To write '1':    <br>
-     WL = 1 → access transistors ON <br>
-     BL = 1, BLB = 0 <br>
+ &nbsp;&nbsp;&nbsp; WL = 1 → access transistors ON <br>
+&nbsp;&nbsp;&nbsp;    BL = 1, BLB = 0 <br>
 • Strong drivers on bit lines overwrite the inverters' state and Forces Q and QB to switch cross-coupled inverters latch new value<br>
 **Result :** New data is written into the cell.
 

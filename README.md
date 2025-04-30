@@ -71,5 +71,11 @@ M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) an
 • A full adder consists of two XOR gates, three NAND gates.
 
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/converted.jpg)
+### 4-bit Ripple Carry Adder Operation:
+• A 4-bit RCA consists of 4 full adders connected in series. <br>
+• It adds two 4-bit binary numbers and one carry-in.<br>
+• Each full adder adds one bit from each number plus a carry-in, producing a sum bit and a carry-out.<br>
+• The carry-out of each stage ripples to the next stage as carry-in.<br>
+• The final output is a 4-bit sum and one carry-out.
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/tool_adder.png)
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/Adder_sim.png)

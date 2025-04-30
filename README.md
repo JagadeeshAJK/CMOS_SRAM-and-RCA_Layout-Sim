@@ -24,15 +24,13 @@
 ## Circuit Diagram 
 #### The 6T SRAM cell consists of: 
 
-• Two cross-coupled inverters for storage. 
-
+• Two cross-coupled inverters for storage. <br>
 • Two NMOS access transistors for read/write operations.
 
                             
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/6T-SRAM-Cell.png)
 
-M1, M2, M3, M4: form two cross-coupled CMOS inverters.These create a latch that holds either ‘0’ or ‘1`
-
+M1, M2, M3, M4: form two cross-coupled CMOS inverters.These create a latch that holds either ‘0’ or ‘1`<br>
 M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) and connect the cell to Bit Line (BL) and Bit Line Bar (BLB) during read/write
 
 
@@ -48,7 +46,7 @@ M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) an
 • Set BL and BLB to desired value:<br>
 • To write '1':    <br>
  &nbsp;&nbsp;&nbsp; WL = 1 → access transistors ON <br>
-&nbsp;&nbsp;&nbsp;    BL = 1, BLB = 0 <br>
+ &nbsp;&nbsp;&nbsp;     BL = 1, BLB = 0 <br>
 • Strong drivers on bit lines overwrite the inverters' state and Forces Q and QB to switch cross-coupled inverters latch new value<br>
 **Result :** New data is written into the cell.
 
@@ -72,8 +70,7 @@ M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) an
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/Sram_sim.png)
 #  4-bit Ripple Carry Adder Layout
 ## Circuit Diagram
-• The RCA is built using four cascaded full adders. 
-
+• The RCA is built using four cascaded full adders. <br>
 • A full adder consists of two XOR gates, three NAND gates.
 
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/converted.jpg)

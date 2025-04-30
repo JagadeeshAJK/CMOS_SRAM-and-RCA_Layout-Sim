@@ -7,16 +7,13 @@
 
 ## Tools Used
 
-• **Magic VLSI:** Open-source tool for layout design and DRC checking. 
-
-• **IRSIM:** Simulator for verifying the circuit's logical behavior. 
+• **Magic VLSI:** Open-source tool for layout design and DRC checking. <br>
+• **IRSIM:** Simulator for verifying the circuit's logical behavior. <br>
 
 ## Design Specifications
 
-• **6T SRAM Cell:** CMOS-based layout ensuring minimal area and stable operation. 
-
-• **4-bit Ripple Carry Adder:** Designed using full adders cascaded to perform multi-bit addition. 
-
+• **6T SRAM Cell:** CMOS-based layout ensuring minimal area and stable operation. <br>
+• **4-bit Ripple Carry Adder:** Designed using full adders cascaded to perform multi-bit addition. <br>
 • **Zero DRC Errors:** Ensured layout is clean and meets foundry design rules.
 
 

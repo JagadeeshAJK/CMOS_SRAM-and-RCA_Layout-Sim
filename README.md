@@ -17,6 +17,7 @@
 • **Zero DRC Errors:** Ensured layout is clean and meets foundry design rules.
 
 
+
 # 6T SRAM Cell Layout  
 ## Circuit Diagram 
 #### The 6T SRAM cell consists of: 
@@ -86,6 +87,7 @@ M5 and M6: access transistors (usually NMOS) controlled by the Word Line (WL) an
 • The carry-out of each stage ripples to the next stage as carry-in.<br>
 • The final output is a 4-bit sum and one carry-out.
 
+![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/fulladder.png)
 ### Inputs:
 A0, A1, A2, A3 → Bits of input A (LSB to MSB)<br>
 B0, B1, B2, B3 → Bits of input B<br>

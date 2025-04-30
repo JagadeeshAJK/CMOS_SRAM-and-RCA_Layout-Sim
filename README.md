@@ -30,6 +30,16 @@
 
                             
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/6T-SRAM-Cell.png)
+#### 3. Write Operation:
+##### Set BL and BLB to desired value:
+
+To write '0':    BL = 0, BLB = 1
+WL = 1 → access transistors ON
+Strong drivers on bit lines overwrite the inverters' state and Forces Q and QB to switch cross-coupled inverters latch new value
+
+#### Result:
+New data is written into the cell.
+
 
 
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/tool_sram.png)

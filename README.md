@@ -40,4 +40,4 @@
 • A full adder consists of two XOR gates, three NAND gates.
 
 ![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/converted.jpg)
-![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/tool_adder)
+![pro](https://github.com/JagadeeshAJK/CMOS_SRAM-and-RCA_Layout-Sim/blob/main/tool_adder.png)
